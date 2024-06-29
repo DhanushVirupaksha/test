@@ -1,0 +1,56 @@
+DevOps Lifecycle
+
+1. Plan:
+   - In the planning stage, teams determine the business requirements and goals. They decide on the features to be developed, the architecture to be used, and the technologies and tools that will be implemented. This involves collaboration between developers, operations, and other stakeholders to ensure alignment with business objectives.
+
+2. Code:
+   - Developers write the application code using the chosen programming languages and frameworks. This code is then placed in a version control repository (e.g., Git), where it can be managed, tracked, and collaborated on by multiple developers.
+
+3. Build:
+   - The code from the repository is fetched and built into executable artifacts. This process may include compiling source code, packaging binaries, and generating other necessary components. Automation tools like Jenkins, Travis CI, or CircleCI are often used to streamline the build process.
+
+4. Test:
+   - Before deployment, the software undergoes various testing phases to ensure its quality and reliability. This includes unit tests, integration tests, and performance tests. Automated testing tools and frameworks are frequently used to validate the software.
+
+5. Integrate:
+   - Continuous Integration (CI) involves merging code changes into a shared repository frequently. Automated builds and tests run to ensure that new changes do not break the existing functionality. Feedback from these tests is used to identify and fix issues early in the development cycle.
+
+6. Deploy:
+   - Once the software has passed all tests, it is deployed to a production environment. Continuous Deployment (CD) automates this process, ensuring that new features and bug fixes are delivered to users quickly and reliably. Deployment tools like Kubernetes, Docker, and AWS CodeDeploy are commonly used.
+
+7. Operate:
+   - After deployment, the software is actively monitored and managed in the production environment. This involves ensuring the application is running smoothly, scaling resources as needed, and maintaining the system's health. Operations teams use monitoring tools like Prometheus, Grafana, and New Relic.
+
+8. Monitor:
+   - Continuous monitoring provides real-time insights into the performance and stability of the application. Logs and metrics are collected and analyzed to detect issues, identify trends, and improve future iterations. Monitoring tools help ensure that the application meets the required performance and availability standards.
+
+
+
+benifits of devops:
+1.continuous delivery of software
+2.better collaboration between teams
+3.easy deployment 
+4.better efficiency and scalability
+5.errors can be fixed at initial stage
+6.better security
+7.less manual intervention
+
+tools 
+coding: maven
+testing: selium
+code management: git
+CI: Jenkins
+CD: anible and docker
+montoring: Nagios
+
+
+
+git
+
+git help config: it will show all the 
+mkdir to make dir
+git init: to initialize the git repo that 1 loc
+git status: Viewing History and Status
+git add filename: to add 1 file at stagging
+git add . : to add all the files present in that dir into stagging
+git commit -m "message": to commit
