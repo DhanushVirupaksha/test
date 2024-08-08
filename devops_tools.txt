@@ -56,6 +56,7 @@ git add . : to add all the files present in that dir into stagging
 git commit -m "message": to commit
 git push origin <branch_name>: to push the local repo after modifying it
 
+
 git vs GitHub
 1. it provides a command line to interact with the files vs it provides a GUI to store the files
 2.it is a s/w tool vs it is service
@@ -63,4 +64,8 @@ git vs GitHub
 4.it is used to manage different versions of the source code vs it is used to have a copy of the local repo code
 
 
+git concepts
 
+1. fork and clone:
+Fork: Creates a personal copy of a repository on a remote server (e.g., GitHub) for your own use and contributions.
+Clone: Creates a local copy of a repository on your computer, allowing you to work on it offline and make changes.
