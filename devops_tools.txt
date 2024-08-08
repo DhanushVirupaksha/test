@@ -54,3 +54,10 @@ git status: Viewing History and Status
 git add filename: to add 1 file at stagging
 git add . : to add all the files present in that dir into stagging
 git commit -m "message": to commit
+
+
+git vs GitHub
+1. it provides a command line to interact with the files vs it provides a GUI to store the files
+2.it is a s/w tool vs it is service
+3.it is installed on the local system vs it is hosted on the web
+4.it is used to manage different versions of the source code vs it is used to have a copy of the local repo code
